@@ -3,7 +3,7 @@ import yt_dlp
 import os
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
-bot = telebot.TeleBot(7781012948:AAEWNTXa7atRSWmXtRUuTvSLCdI7IPr2JvQ)
+bot = telebot.TeleBot(BOT_TOKEN)
 
 user_states = {}
 
